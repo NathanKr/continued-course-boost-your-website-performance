@@ -1,0 +1,30 @@
+
+.mailchimpForm {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f8f8f8;
+    border: 3px solid #e0e0e0;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  
+  
+  .formInput {
+    max-width: 380px; /* Set a max-width or a specific width */
+    width: 100%; /* This ensures the input takes up the available width */
+    margin: 0 auto; /* Center the input horizontally */
+    padding: 10px;
+    margin-bottom: 16px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    transition: border-color 0.3s ease-in-out;
+  }
+  
+  
+  .formMessage {
+    margin: 16px 0;
+  }
+  

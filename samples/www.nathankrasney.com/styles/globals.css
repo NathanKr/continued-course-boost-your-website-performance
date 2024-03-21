@@ -1,0 +1,39 @@
+/* -- from react -> index.css */
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap'); */
+
+:root {
+  --name-color: #df292d;
+  --bottom-footer: calc(100vh - 3rem);
+  --black-color: #000;
+  --white-color: #fff;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box !important;
+}
+
+body {
+  font-family: sans-serif;
+  color: var(--white-color);
+}
+
+.button_round_black_white {
+  background-color: var(--white-color);
+  color: var(--black-color);
+  border: 1px solid var(--black-color);
+  border-radius: 20px;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.5s ease;
+  text-decoration: none;
+}
+
+.button_round_black_white:hover {
+  background-color: var(--black-color); /* Slightly lighter black on hover */
+  color: var(--white-color);
+  /* Add any other hover effects like a box-shadow or glow */
+}

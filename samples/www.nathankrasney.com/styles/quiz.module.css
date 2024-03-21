@@ -1,0 +1,11 @@
+.Quiz {
+    min-height: var(--bottom-footer);
+    color: var(--black-color);
+}
+
+.Quiz_container { 
+    font-size: 1.3rem;
+    max-width: 900px;
+    margin: 2rem auto;
+    padding: 2rem;
+}

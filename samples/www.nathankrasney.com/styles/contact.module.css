@@ -1,0 +1,89 @@
+.Contact {
+  min-height: var(--bottom-footer);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 1rem;
+}
+
+.Contact_container {
+  border: 2px solid var(--black-color);
+  max-width: 800px;
+  width: 100%;
+  border-radius: 3px;
+  display: flex;
+}
+
+.Contact_img_container {
+  background-color: var(--white-color);
+  padding: 2rem;
+}
+
+.Contact_info_container {
+  padding: 1rem 2rem;
+  background-color: var(--black-color);
+  width: 100%;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+}
+
+.Contact_info {
+  font-size: 1.5rem;
+  cursor: pointer;
+  color: var(--white-color);
+}
+
+.Contact_email {
+  margin: 0 1rem;
+  color: var(--white-color);
+}
+
+.Contact_newsletter {
+  text-decoration-color: var(--name-color);
+  color: var(--white-color);
+}
+
+.Contact_email_list {
+  color: var(--white-color);
+}
+
+
+@media screen and (max-width: 650px) {
+  .Contact_info_span {
+    font-size: 1.2rem;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 620px) {
+  .Contact_container {
+    flex-direction: column;
+  }
+
+  .Contact_img_container {
+    text-align: center;
+  }
+
+
+}
+
+@media screen and (max-width: 492px) {
+  .Contact_info_span {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .Contact_email {
+    margin: 0.5rem 0;
+    font-size: 1.3rem;
+  }
+}
+
+@media screen and (max-width: 445px) {
+  .Contact_email{
+    display: block;
+    margin: 0.5rem 0;
+    font-size: 1.3rem;
+  }
+}

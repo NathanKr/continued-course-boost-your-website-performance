@@ -1,0 +1,17 @@
+.Courses {
+  min-height: var(--bottom-footer);
+  color: var(--black-color);
+}
+
+.Courses_main_container {
+  margin-top: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.Courses_online_title {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  text-align: center;
+}

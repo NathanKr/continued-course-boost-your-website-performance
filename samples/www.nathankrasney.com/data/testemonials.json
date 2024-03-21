@@ -1,0 +1,125 @@
+[
+  {
+    "testimonial_category": "Student",
+    "name": {
+      "en": "Tamrat Bayeh"
+    },
+    "job": {
+      "en": "Frontend Developer at Wix"
+    },
+    "desc": {
+      "en": "Good week Nathan. I wanted to update you that I, Yaakov and Avshalom, have started working today at Wix. I also wanted to thank you for the courses at UDEMY and for the help you gave ,so thank you very much :)"
+    },
+    "href": "https://www.linkedin.com/in/tamrat-bayeh-6b1b53192/",
+    "img_src": "/images/tamrat.webp",
+    "widthPx": 200,
+    "heightPx": 200
+  },
+  {
+    "testimonial_category": "Student",
+    "name": {
+      "en": "mazal gevyan"
+    },
+    "job": {
+      "en": "Fullstack Web Developer at Aman Group"
+    },
+    "desc": {
+      "en": "Hi Nathan , How are you ? As you know i have signed a working contract and i am allready working for two weeks. Thanks to you i have passed these weeks without the fears i had at the begining. I want to thank you for the support and tools that you have gave us throughout the bootcamp. The way that you have thought me was very helpfull. I have no doubt that you are an excellent lecturer "
+    },
+    "href": "https://www.linkedin.com/in/mazal-gevyan/",
+    "img_src": "/images/mazal.webp",
+    "widthPx": 200,
+    "heightPx": 200
+  },
+  {
+    "testimonial_category": "Student",
+    "name": {
+      "en": "aliza zeru"
+    },
+    "job": {
+      "en": "Web Developer at BriefCam"
+    },
+    "desc": {
+      "en": "Nathan, it is all thanks to you. You are an amazing teacher !!! After one and a half month on the new job i can say that you have realy gave me all the tools that i need to cope with any challange. Huge thanks !!!"
+    },
+    "href": "https://www.linkedin.com/in/aliza-zeru-5a2876149/",
+    "img_src": "/images/aliza.webp",
+    "widthPx": 200,
+    "heightPx": 200
+  },
+  {
+    "testimonial_category": "Student",
+    "name": {
+      "en": "batchen itbarach"
+    },
+    "job": {
+      "en": "Full Stack Web Developer at Rimonim Insurance Agency"
+    },
+    "desc": {
+      "en": "Hi Nathan, i want to inform that i got a job, today was my first day. Thanks to all the tools that we have acquired from you during the bootcamp my integration into the job was relatively smooth. Thank you very much ! I could have not asked for a better lecturer than you "
+    },
+    "href": "https://www.linkedin.com/in/batchen-itbarach/",
+    "img_src": "/images/batchen.webp",
+    "widthPx": 200,
+    "heightPx": 200
+  },
+  {
+    "testimonial_category": "Student",
+    "name": {
+      "en": "Chaim Ochs"
+    },
+    "job": {
+      "en": "Lead Developer at TheJuntoProject"
+    },
+    "desc": {
+      "en": "This was one of the best cources I have ever taken. The pace and explanations were incredibly easy to follow. Everything important about React was covered and Nathan explained every little detail so well that anyone can understand it and gain a good understanding. I have learned a lot from this course, and I hope that Nathan will add others in the future"
+    },
+    "href": "https://www.linkedin.com/in/chaim-ochs-3089b563/?originalSubdomain=il",
+    "img_src": "/images/chaim.webp",
+    "widthPx": 142,
+    "heightPx": 142
+  },
+  {
+    "testimonial_category": "Student",
+    "name": {
+      "en": "Łukasz Franczyk"
+    },
+    "job": {
+      "en": "Senior Fullstack developer at Sii Poland"
+    },
+    "desc": {
+      "en": "Very great course. I've learned React in a really fast way. Exercises after each lesson gives a lot. Response from a teacher is really quick. :) "
+    },
+    "href": "https://www.linkedin.com/in/%C5%82ukasz-franczyk-b76333146/",
+    "img_src": "/images/lukasz.webp",
+    "widthPx": 200,
+    "heightPx": 200
+  },
+  {
+    "testimonial_category": "Organization",
+    "img_src": "/images/tec-career-2022.webp",
+    "name": {
+      "en": "Tec Career"
+    },
+    "widthPx": 2550,
+    "heightPx": 3506
+  },
+  {
+    "testimonial_category": "Organization",
+    "img_src": "/images/lodigital.webp",
+    "name": {
+      "en": "A gift of appreciation from students in a social programming bootcamp I established in Lod"
+    },
+    "widthPx": 413,
+    "heightPx": 525
+  },
+  {
+    "testimonial_category": "Organization",
+    "img_src": "/images/ruti.whatsapp.w4b.webp",
+    "name": {
+      "en": "A student who studied in a social programming bootcamp that I founded in Lod and found a job as a software engineer in the aviation industry"
+    },
+    "widthPx": 720,
+    "heightPx": 1520
+  }
+]

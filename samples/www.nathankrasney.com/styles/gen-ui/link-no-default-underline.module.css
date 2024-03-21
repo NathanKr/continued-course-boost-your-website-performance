@@ -1,0 +1,11 @@
+.LinkNoDefaultUnderline {
+    text-decoration: none;
+    color: var(--name-color);
+}
+
+
+
+.LinkNoDefaultUnderline:hover {
+    text-decoration: underline;
+    color: var(--name-color);
+}

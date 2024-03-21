@@ -1,0 +1,87 @@
+.Home {
+  position: relative;
+  min-height: var(--bottom-footer);
+  display: flex;
+  align-items: center;
+  background-image: url("/images/home/main-pic-2.webp");
+ 
+  /* Image is centered vertically and horizontally at all times */
+  background-position: center center;
+
+  /* Image doesn't repeat */
+  background-repeat: no-repeat;
+
+  /* Makes the image fixed in the viewport so that it doesn't move when 
+       the content height is greater than the image height */
+  background-attachment: fixed;
+
+  /* This is what makes the background image rescale based on its container's size */
+  background-size: cover;
+
+  /* Pick a solid background color that will be displayed while the background image is loading */
+  background-color: #464646;
+}
+
+.Home_primary {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.Home_text {
+  font-size: 3rem;
+  font-weight: bold;
+  color: var(--white-color);
+}
+
+.Home_red_bar {
+  width: 20rem;
+  border-radius: 3px;
+  height: 0.75rem;
+  background-color: var(--name-color);
+}
+
+/* Media Queries */
+
+@media screen and (max-width: 721px) {
+  .Home_text {
+    font-size: 2.75rem;
+  }
+}
+
+@media screen and (max-width: 583px) {
+  .Home_text {
+    font-size: 2.5rem;
+  }
+}
+
+@media screen and (max-width: 435px) {
+  .Home_text {
+    font-size: 2rem;
+  }
+}
+
+@media only screen and (max-width: 960px) {
+  .Home {
+    /* The file size of this background image is smaller
+     * to improve page load speed on mobile internet connections */
+    background-image: url("/images/home/main-pic-2-960w.webp");
+  }
+}
+
+@media only screen and (max-width: 634px) {
+  .Home {
+    /* The file size of this background image is smaller
+     * to improve page load speed on mobile internet connections */
+    background-image: url("/images/home/main-pic-2-634w.webp");
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .Home {
+    /* The file size of this background image is smaller
+     * to improve page load speed on mobile internet connections */
+    background-image: url("/images/home/main-pic-2-480w.webp");
+  }
+}

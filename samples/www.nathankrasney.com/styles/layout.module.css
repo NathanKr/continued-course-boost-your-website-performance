@@ -1,0 +1,9 @@
+/* from react App.css */
+.App {
+    background-color: ver(--white-color);
+  }
+  
+  .App .container {
+    display: flex;
+    flex-direction: column;
+  }

@@ -1,0 +1,13 @@
+.Link {
+  margin: 20px;
+  padding: 10px 30px;
+  border: 1px double var(--name-color);
+  text-decoration: none;
+  color: black;
+}
+
+.Link:hover {
+  background-color: var(--name-color);
+  text-decoration: none;
+  color: black;
+}

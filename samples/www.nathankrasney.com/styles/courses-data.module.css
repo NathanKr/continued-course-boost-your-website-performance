@@ -1,0 +1,47 @@
+.courseOnline {
+  border: 2px solid var(--black-color);
+  border-radius: 2px;
+  width: 356px;
+  margin: 5px;
+  background-color: var(--black-color);
+}
+
+.course_img {
+  position: relative;
+  height: 198px;
+}
+
+.course_name_text {
+  border-top: 1px solid lightblue;
+  padding: 1rem 0;
+}
+
+.course_name_text h3 {
+  font-size: 100%;
+  margin: 0;
+  text-align: center;
+  color: var(--white-color);
+  padding: 0 0.5rem;
+}
+
+.course_btn_enroll {
+  color: var(--white-color);
+  text-decoration: none !important;
+  background-color: var(--name-color);
+  font-weight: bold;
+  padding: 0.5rem 1.5rem;
+  display: inline-block;
+  position: absolute !important;
+  bottom: 0;
+  right: 0;
+  margin: 0 !important;
+  transition: color 0.3s ease-in;
+}
+
+.course_btn_enroll:hover {
+  color: var(--black-color);
+}
+
+.course_btn_enroll::after {
+  content: none !important;
+}

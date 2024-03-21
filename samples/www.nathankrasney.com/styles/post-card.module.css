@@ -1,0 +1,17 @@
+.container_post_card {
+  display: flex;
+  flex-direction: column;
+}
+
+.container_post_card a{
+  display: inline-block;
+}
+
+.container_post_card h2 {
+  font-size: 110%;
+  font-weight: bold;
+}
+
+.link_title_container{
+  margin-top: auto
+}

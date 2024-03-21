@@ -1,0 +1,15 @@
+@keyframes disappear {
+    0% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+  
+  .status {
+    animation: disappear 5s ease-in-out forwards; /* 5s duration, ease-in-out timing function */  font-weight: 700;
+    color: green;
+    background-color: white;
+    font-size: 1.2rem;
+  }

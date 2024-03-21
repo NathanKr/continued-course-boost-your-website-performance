@@ -1,0 +1,26 @@
+.container{
+  background-color: #F92E0B;
+  padding: 1rem 0;
+}
+
+/* .animated_img {
+    animation: sample 2s;
+    display: block;
+    margin: auto;
+  } */
+  
+  .sale_title {
+    text-align: center;
+    color: var(--black-color);
+  }
+  @keyframes sample {
+    from {
+      width: 0;
+      height: 0;
+    }
+    to {
+      width: 450;
+      height: 290;
+    }
+  }
+  

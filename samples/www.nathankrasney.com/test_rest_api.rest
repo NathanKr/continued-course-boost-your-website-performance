@@ -1,0 +1,22 @@
+###
+GET http://localhost:3000/api/admin/encrypt-coupon?dtStart=1&dtEnd=2&dtCreated=3&saleCategory=discount-max
+
+###
+GET http://localhost:3000/api/admin/decrypt-coupon?encrypted_coupon=%7B%22iv%22%3A%22162bb29b7bf0c094059b21f16d72c98e%22%2C%22encryptedData%22%3A%22944018c7093a68ee4f9764d0acdb763029c7521bc4794813ab6a1677486f51303ef23f12df866aec289d3376bf9a0d11f48d685aed54228b8573a8a9626d1b2e42bce38e4fae4cb9cd%22%2C%22tag%22%3A%2282cbe236a6ebd79e4e1a1c70d849e860%22%7D
+
+
+### 1702458733000, // ---> 13/Dec/23 (Wednesday)
+POST http://localhost:3000/api/e2e/e2e-fake-server-time 
+Content-Type: application/json
+
+{
+    "serverFakeTimeMs" : 1702458733000
+}
+
+### 1702549920000, // ---> 14/Dec/23 (Thursday)
+POST http://localhost:3000/api/e2e/e2e-fake-server-time 
+Content-Type: application/json
+
+{
+    "serverFakeTimeMs" : 1702549920000
+}

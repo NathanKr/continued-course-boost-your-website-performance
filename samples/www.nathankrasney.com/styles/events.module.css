@@ -1,0 +1,29 @@
+.Events {
+    min-height: var(--bottom-footer);
+    padding: 1rem;
+}
+
+.Events_title {
+    text-align: center;
+    color: black;
+}
+
+.Events_container {
+    max-width: 1200px;
+    width: 100%;
+    margin: 2rem auto;
+    padding: 1rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+    gap: 1rem;
+}
+
+/* Media Queries */
+
+@media screen and (max-width: 480px) {
+    .Events_container {
+        grid-template-columns: 1fr;
+    }
+}
+
+
