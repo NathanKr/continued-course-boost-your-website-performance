@@ -5,7 +5,8 @@ import {
   stringToBuffer,
 } from "./symetric-crypto";
 
-export const keyString: string = process.env.COUPON_CRYPTO_KEY!;
+// --- nathan 21/Mar/24 keySring is not undefined
+export const keyString: string = process.env.COUPON_CRYPTO_KEY??'';
 const key: Buffer = stringToBuffer(keyString);
 
 export function encryptCoupon(coupon: IProxyCourseCoupon): string {
