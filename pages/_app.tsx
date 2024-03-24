@@ -1,5 +1,5 @@
-import 'bootstrap/dist/css/bootstrap.min.css'
-// import "bootstrap/dist/css/bootstrap-with-purgecss.css";
+//import 'bootstrap/dist/css/bootstrap.min.css'
+import "bootstrap/dist/css/bootstrap-with-purgecss.css";
 import "styles/globals.css";
 import type { AppProps } from "next/app";
 import Layout from "src/components/layout";
